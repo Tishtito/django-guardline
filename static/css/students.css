@@ -1,0 +1,16 @@
+form{
+    padding: 30px;
+    background-color: deepskyblue;
+    padding-left: 20px;
+}
+legend{
+    font-size: xxx-large;
+}
+button{
+    background-color: red;
+    width: 100px;
+   text-align: center;
+}
+input{
+    text-align: right;
+}

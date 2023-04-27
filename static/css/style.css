@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: #008f7d;
+}
+body{
+    background-image: url("/static/images/nairobi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

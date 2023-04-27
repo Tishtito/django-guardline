@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/students.css' %}">
+</head>
+<body>
+
+<form method="post" action="">
+    <fieldset>
+    <legend>Student details</legend>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+    </fieldset>
+</form>
+
+</body>
+</html>

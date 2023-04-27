@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>images</title>
+    {% load static %}
+    <style>
+        .links{
+            color: lawngreen;
+
+
+
+        }
+    </style>
+</head>
+<body>
+<a href="{% url 'employee' %}">Employee</a>
+<a href="{% url 'backend' %}">back</a>
+<a href="{% url 'index' %}">index</a>
+<img src="{% static 'images/nairobi.jpg' %}" alt="" width="900" height="600">
+
+</body>
+</html>
